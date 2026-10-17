@@ -1,45 +1,86 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="id">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tek Web</title>
+    <title>Profil Saya</title>
+    <style>
+
+        body {
+            margin: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding: 24px;
+        }
+
+        h1 {
+            margin: 10px;
+            font-size: 2.2rem;
+        }
+
+        img {
+            width: 170px;
+            height: 170px;
+            object-fit: cover;
+            border-radius: 50%;
+            border: 5px solid #ffffff;
+            box-shadow: 0 10px 25px black;
+            margin-bottom: 20px;
+        }
+
+        .info {
+            margin: auto;
+            max-width: 400px;
+            padding: 20px;
+            background: rgba(0, 0, 0, 0.1);
+            border-radius: 20px;
+            line-height: 2;
+            font-size: 1rem;
+            text-align: center;
+        }
+
+        .quote {
+            margin: 20px;
+            color: var(--primary-dark);
+            font-weight: bold;
+            font-style: italic;
+            font-size: 1.2rem;
+        }
+
+        a {
+          
+            text-decoration: none;
+            color: #000000;
+            padding: 20px;
+            font-weight: bold;
+        }
+
+    </style>
 </head>
 <body>
+    <div class="card">
+        <h1>Biodata Saya</h1>
 
-<style>
-    .IG {
-      display: block;
-      text-align: center;
-    }
+        <img src="gambar-1.jpg">
 
-    .h1 {
-      text-align: center;
-    }
+        <div class="info">
+            <strong>Nama</strong> : Raka Dwi Susilo<br>
+            <strong>Alamat</strong> : Klaten, Jawa Tengah<br>
+            <strong>Prodi</strong> : Sistem Informasi<br>
+            <strong>Fakultas</strong> : Fakultas Sains Dan Teknologi Terapan<br>
+            <strong>Email</strong> : rakadsusilo@gmail.com<br>
+            <strong>Semester</strong> : 3<br>
+            <strong>Hobi</strong> : Membaca
+        </div>
 
-    .gambar {
-      display: block;
-      margin: auto;
-      width: 20%;
-      height: auto;
+        <p class="quote">"Jangan pernah berhenti mencoba, karena pengalaman adalah guru terbaik"</p>
 
-    }
-
-</style>
-
-
-    <h1 class="h1">Biodata</h1>
-
-    <img src="gambar-1.jpg" alt="Foto Biodata"class="gambar">
-
-
-    <p style="color: rgb(165, 0, 116); text-align: center;">Nama : <b>Raka</b> <br>
-      Nim : <b>2500016024</b> <br>
-      Hobi : <b>Membaca buku dan menulis</b>
-    </p>
-
-    <a href="https://www.instagram.com/rakaaa.ds?stkn=NGtldmsyM3kzb2Iz" class="IG">IG KU</a>
-
-
+        <a href="https://www.instagram.com/rakaaa.ds?stkn=NGtldmsyM3kzb2Iz">
+            Instagram Saya
+        </a>
+    </div>
 </body>
 </html>
